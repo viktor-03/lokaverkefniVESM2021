@@ -35,3 +35,10 @@ Servo mótorinn var einnig tengdur í sinn eigin ESP32. 3.3V (+), GND (-) og pin
 Hér fyrir neðan má sjá myndband af viftunni. Því miður var þrívíddarprentunin ókláruð og lítur hún ekki út eins og vifta fyrir utan blaðið sem fylgdi með Arduino kittinu.
 
 # SETJA MYNDBAND HÉR
+
+
+## Heimildir
+https://microcontrollerslab.com/mg995-servo-motor-pinout-interfacing-with-arduino-features-examples/
+https://thecustomizewindows.com/2019/03/esp32-arduino-with-dht11-sensor-connection-code/
+https://www.electronicshub.org/esp32-dht11-tutorial/
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/_images/esp32-devkitC-v4-pinout.png
