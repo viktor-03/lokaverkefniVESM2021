@@ -26,8 +26,9 @@ Servo mótorinn var einnig tengdur í sinn eigin ESP32. 3.3V (+), GND (-) og pin
 
 ## Vandamál
 
-*DC mótorinn á til með að festast þar til ýtt er á hann. Þetta er lítið vandamál en er samt óheppilegt fyrir verkefni þar sem tilgangurinn á honum er að snúast.
-*Step mótorinn endurræsir sig alltaf þegar kveikt er á honum og hann fær gildi í fyrsta sinn.
+1. DC mótorinn á til með að festast þar til ýtt er á hann. Þetta er lítið vandamál en er samt óheppilegt fyrir verkefni þar sem tilgangurinn á honum er að snúast.
+2. Step mótorinn endurræsir sig alltaf þegar kveikt er á honum og hann fær gildi í fyrsta sinn.
+3. Adafruit IO getur endurræst lykil (key) manns án leyfis og því getur allt hætt að virka út úr þurru.
 
 
 # Heimildir
