@@ -30,6 +30,11 @@ Servo mótorinn var einnig tengdur í sinn eigin ESP32. 3.3V (+), GND (-) og pin
 2. Step mótorinn endurræsir sig alltaf þegar kveikt er á honum og hann fær gildi í fyrsta sinn.
 3. Adafruit IO getur endurræst lykil (key) manns án leyfis og því getur allt hætt að virka út úr þurru.
 
+## Niðurstöður
+Hér fyrir neðan má sjá myndband af viftunni. Því miður var þrívíddarprentunin ókláruð og lítur hún ekki út eins og vifta fyrir utan blaðið sem fylgdi með Arduino kittinu.
+
+# SETJA MYNDBAND HÉR
+
 
 # Heimildir
 https://docs.espressif.com/projects/esp-idf/en/latest/esp32/_images/esp32-devkitC-v4-pinout.png
