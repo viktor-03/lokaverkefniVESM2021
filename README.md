@@ -1,4 +1,5 @@
 # Lokaverkefni í VESM3 2021
+#### Víðir D. Krogsgaard & Viktor B. Guðlaugsson
 
 Í lokaverkefninu völdum við að gera rafknúna viftu sem kveikir og slekkur á sér eftir hversu heitt það er í kring um hita- og rakaskynjara sem keyrir utan viftunnar.
 
