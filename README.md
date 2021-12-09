@@ -29,12 +29,9 @@ Servo mótorinn var einnig tengdur í sinn eigin ESP32. 3.3V (+), GND (-) og pin
 
 1. DC mótorinn á til með að festast þar til ýtt er á hann. Þetta er lítið vandamál en er samt óheppilegt fyrir verkefni þar sem tilgangurinn á honum er að snúast.
 2. Step mótorinn endurræsir sig alltaf þegar kveikt er á honum og hann fær gildi í fyrsta sinn.
-3. Adafruit IO getur endurræst lykil (key) manns án leyfis og því getur allt hætt að virka út úr þurru.
+3. Adafruit IO getur endurræst lykil (key) manns án leyfis og því getur allt hætt að virka út úr þurru. Þetta gæti verið tengt IFTTT sem notað var til að búa til Sheets skjal.
 
 ## Niðurstöður
 Hér fyrir neðan má sjá myndband af viftunni. Því miður var þrívíddarprentunin ókláruð og lítur hún ekki út eins og vifta fyrir utan blaðið sem fylgdi með Arduino kittinu.
 
 # SETJA MYNDBAND HÉR
-
-
-# Heimildir
