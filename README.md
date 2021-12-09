@@ -38,7 +38,7 @@ Hér fyrir neðan má sjá myndband af viftunni. Því miður var þrívíddarpr
 
 
 ## Heimildir
-https://microcontrollerslab.com/mg995-servo-motor-pinout-interfacing-with-arduino-features-examples/
-https://thecustomizewindows.com/2019/03/esp32-arduino-with-dht11-sensor-connection-code/
-https://www.electronicshub.org/esp32-dht11-tutorial/
-https://docs.espressif.com/projects/esp-idf/en/latest/esp32/_images/esp32-devkitC-v4-pinout.png
+https://microcontrollerslab.com/mg995-servo-motor-pinout-interfacing-with-arduino-features-examples/<br>
+https://thecustomizewindows.com/2019/03/esp32-arduino-with-dht11-sensor-connection-code/<br>
+https://www.electronicshub.org/esp32-dht11-tutorial/<br>
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/_images/esp32-devkitC-v4-pinout.png/<br>
