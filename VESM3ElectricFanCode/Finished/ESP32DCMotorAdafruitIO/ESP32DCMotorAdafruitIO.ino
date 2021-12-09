@@ -1,7 +1,9 @@
 #include <analogWrite.h>
 #include "Config.h"
 
-int motorPin = 2;
+#define PIN_IN1 26
+#define PIN_IN2 27
+#define PIN_ENA 14
 
 int current = 0;
 int last = -1;
@@ -9,7 +11,9 @@ AdafruitIO_Feed *analog = io.feed("fan-project.temperature");
 
 
 void setup() {
-   pinMode(motorPin, OUTPUT);
+   pinMode(PIN_IN1, OUTPUT);
+   pinMode(PIN_IN2, OUTPUT);
+   pinMode(PIN_ENA, OUTPUT);
 
    Serial.begin(9600);
    while(! Serial);
@@ -33,7 +37,9 @@ void setup() {
 }
 
 void loop() {
-  io.run();  
+  io.run();
+  digitalWrite(PIN_IN1, HIGH);
+  digitalWrite(PIN_IN2, LOW);
 }
 
 void handleMessage(AdafruitIO_Data *data)
@@ -42,25 +48,25 @@ void handleMessage(AdafruitIO_Data *data)
   Serial.println(temp);
   if(temp != last)
   {
-    if(temp <= 20)
+    if(temp <= 21)
     {
       Serial.println("OFF");
-      analogWrite(motorPin, 0);
+      analogWrite(PIN_ENA, 0);
     }
     else if(temp >= 26)
     {
-      Serial.println("200");
-      analogWrite(motorPin, 80);
+      Serial.println("140");
+      analogWrite(PIN_ENA, 140);
     }
-    else if(temp >= 24)
+    else if(temp > 24 && temp < 26)
     {
-      Serial.println("150");
-      analogWrite(motorPin, 150);
+      Serial.println("110");
+      analogWrite(PIN_ENA, 110);
     }
-    else if(temp >= 21)
+    else if(temp > 21 && temp < 24)
     {
       Serial.println("80");
-      analogWrite(motorPin, 200);
+      analogWrite(PIN_ENA, 80);
     }
     last = temp;
   }
