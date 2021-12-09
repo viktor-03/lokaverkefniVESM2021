@@ -18,7 +18,7 @@ ESP32 er microcontroller svipaður Arduino Uno og notuðum við þrjá. Hann tek
 
 ## Tengingar
 
-Fyrir DC mótorinn var notaður ESP32 til að stýra honum og 4x 1.5v rafhlöður til að knúa hann. Notaður var 330Ω resistor úr ESP32 yfir í transistor og diode úr mótornum yfir í transistorinn. Rafhlöðurnar tengdust í VCC (+) og common ground (-).
+Fyrir DC mótorinn var notaður ESP32 til að stýra honum og 4x 1.5v rafhlöður til að knúa hann. Notaður var 330Ω resistor úr ESP32 yfir í transistor og diode úr mótornum yfir í transistorinn. Rafhlöðurnar tengdust í VCC (+) og common ground (-). Mynd má finna [hér](README%20Images/ESP32DCMotor.png?raw=true) til að sjá tengingarnar. Tinkercad hefur hins vegar ekki ESP32 og því var Arduino Uno notaður í staðinn.
 
 
 # Heimildir
