@@ -4,7 +4,7 @@
 <br>
 <br>
 
-Í lokaverkefninu völdum við að gera rafknúna viftu sem kveikir og slekkur á sér eftir hversu heitt það er í kring um hita- og rakaskynjara sem keyrir utan viftunnar.
+Í lokaverkefninu völdum við að gera rafknúna viftu sem kveikir og slekkur á sér eftir hversu heitt það er í kring um hita- og rakaskynjara sem keyrir utan viftunnar. Bætt var við IFTTT virkni sem tekur öll ný gildi úr feedinu og sendir þau inn í nýjann dálk með tíma- og dagsetningu gildisins.
 
 ## Íhlutir
 
@@ -14,7 +14,7 @@ Notaður var [MG995](README%20Images/MG995.jpg?raw=true) Servo mótor sem var fe
 
 DHT11 hita- og rakaskynjari er til staðar og sendir hann frá sér hitastig til feed á Adafruit IO ef hann fær ekki sama gildið tvisvar á fimm sekúndna fresti. Þetta var gert til að koma í veg fyrir að overloada feedið því Adafruit IO lokar feedinu ef það er of mikil virkni í gangi í einu.
 
-ESP32 er microcontroller svipaður Arduino Uno og notuðum við þrjá. Hann tekur við kóða úr Arduino IDE og er því frekar auðvelt að vinna með hann. Hins vegar þurftum við að finna library fyrir alls konar hluti til að fá virkni á honum svipað og hægt er að fá úr Arduino. ESP32 hefur innbyggt WiFi og þarf því ekki að hafa áhyggjur af því.
+ESP32 er microcontroller svipaður Arduino Uno og notuðum við þrjá. Hann tekur við kóða úr Arduino IDE og er því frekar auðvelt að vinna með hann. Hins vegar þurftum við að finna library fyrir alls konar hluti til að fá virkni á honum svipað og hægt er að fá úr Arduino. ESP32 hefur innbyggt WiFi og þarf því ekki að hafa áhyggjur af því. Hann getur hins vegar bara knúið 3.3V en ekki 5V. Notaður var batterí pakki til að knúa öll tækin. Hann tengist í common ground með tækjunum og þar sem VCC tengist.
 
 
 # Heimildir
