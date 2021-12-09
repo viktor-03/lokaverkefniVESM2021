@@ -24,6 +24,11 @@ DHT11 var frekar auðveldur. Hann var tengdur í 3.3V (+), GND (-) og pin 2 á E
 
 Servo mótorinn var einnig tengdur í sinn eigin ESP32. 3.3V (+), GND (-) og pin 13 á ESP32.
 
+## Vandamál
+
+*DC mótorinn á til með að festast þar til ýtt er á hann. Þetta er lítið vandamál en er samt óheppilegt fyrir verkefni þar sem tilgangurinn á honum er að snúast.
+*Step mótorinn endurræsir sig alltaf þegar kveikt er á honum og hann fær gildi í fyrsta sinn.
+
 
 # Heimildir
 https://docs.espressif.com/projects/esp-idf/en/latest/esp32/_images/esp32-devkitC-v4-pinout.png
