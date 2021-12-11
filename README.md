@@ -20,6 +20,7 @@ https://docs.espressif.com/projects/esp-idf/en/latest/esp32/_images/esp32-devkit
 ## Tengingar
 
 Fyrir DC mótorinn var notaður ESP32 til að stýra honum og 4x 1.5v rafhlöður til að knúa hann. Notaður var 330Ω resistor úr ESP32 yfir í transistor og diode úr mótornum yfir í transistorinn. Rafhlöðurnar tengdust í VCC (+) og common ground (-). Mynd má finna [hér](README%20Images/ESP32DCMotor.png?raw=true) til að sjá tengingarnar. Tinkercad hefur hins vegar ekki ESP32 og því var Arduino Uno notaður fyrir myndina í staðinn.
+Við grilluðum þrjá transistors með þessarri tengingu og skiptum við því yfir í L298N Dual H-Bridge Motor Controller. Tinkercad hefur engann stuðning fyrir þann íhlut og því er ekki hægt að gera nýja mynd fyrir hann. Rafhlöðurnar tengjast í GND (-) á motor controllernum og VCC (+). Þaðan tengjast vírar úr ESP32 yfir í 3 pinna á Motor Controllernum. ENA (Enable A) tengist pin 14, IN1 í 26 og IN2 í 27. Síðan er mótorinn tengdur í MOTORA tengin á controllernum.
 
 DHT11 var frekar auðveldur. Hann var tengdur í 3.3V (+), GND (-) og pin 2 á ESP32.
 
