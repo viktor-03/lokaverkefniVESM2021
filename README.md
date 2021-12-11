@@ -33,10 +33,17 @@ Servo mótorinn var einnig tengdur í sinn eigin ESP32. 3.3V (+), GND (-) og pin
 3. Adafruit IO getur endurræst lykil (key) manns án leyfis og því getur allt hætt að virka út úr þurru. Þetta gæti verið tengt IFTTT sem notað var til að búa til Sheets skjal.
 
 ## Niðurstöður
-Hér fyrir neðan má sjá myndband af viftunni. Því miður var þrívíddarprentunin ókláruð og lítur hún ekki út eins og vifta fyrir utan blaðið sem fylgdi með Arduino kittinu.
+Hér fyrir neðan má sjá myndir af tengingu okkar og síðan myndband af viftunni. Því miður var þrívíddarprentunin ókláruð og lítur hún ekki út eins og vifta fyrir utan blaðið sem fylgdi með Arduino kittinu.
 
-# SETJA MYNDBAND HÉR
+[Mynd 1](README%20Images/img1.png?raw=true)<br>
+[Mynd 2](README%20Images/img2.png?raw=true)<br>
+[Mynd 3](README%20Images/img3.png?raw=true)<br>
+[Mynd 4](README%20Images/img4.png?raw=true)<br>
+[Mynd 5](README%20Images/img5.png?raw=true)<br>
+[Mynd 6](README%20Images/img6.png?raw=true)<br>
+[Mynd 7](README%20Images/img7.png?raw=true)<br>
 
+[Myndband](https://www.youtube.com/watch?v=LtIJxRhvcMk)
 
 ## Heimildir
 https://microcontrollerslab.com/mg995-servo-motor-pinout-interfacing-with-arduino-features-examples/<br>
