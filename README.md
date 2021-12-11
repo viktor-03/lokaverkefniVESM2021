@@ -35,6 +35,8 @@ Servo mótorinn var einnig tengdur í sinn eigin ESP32. 3.3V (+), GND (-) og pin
 ## Niðurstöður
 Hér fyrir neðan má sjá myndir af tengingu okkar og síðan myndband af viftunni. Því miður var þrívíddarprentunin ókláruð og lítur hún ekki út eins og vifta fyrir utan blaðið sem fylgdi með Arduino kittinu.
 
+[IFTTT Google Sheets skjal](https://docs.google.com/spreadsheets/d/1YgROKHKO5uyjV1rzHlPHnc0VvN5rg4wlrnPz9e9smkE/edit?usp=sharing)<br>
+
 [Mynd 1](README%20Images/img1.png?raw=true)<br>
 [Mynd 2](README%20Images/img2.png?raw=true)<br>
 [Mynd 3](README%20Images/img3.png?raw=true)<br>
