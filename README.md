@@ -26,6 +26,10 @@ DHT11 var frekar auðveldur. Hann var tengdur í 3.3V (+), GND (-) og pin 2 á E
 
 Servo mótorinn var einnig tengdur í sinn eigin ESP32. 3.3V (+), GND (-) og pin 13 á ESP32.
 
+## 3D
+fyrir viftu blaðið tókum við design af netinu það er linkur á það í heimildir.
+Síðan gerum við sjálfir design fyrir botninn á viftunni.
+
 ## Vandamál
 
 1. DC mótorinn á til með að festast þar til ýtt er á hann. Þetta er lítið vandamál en er samt óheppilegt fyrir verkefni þar sem tilgangurinn á honum er að snúast.
@@ -48,6 +52,7 @@ Hér fyrir neðan má sjá myndir af tengingu okkar og síðan myndband af viftu
 [Myndband](https://www.youtube.com/watch?v=LtIJxRhvcMk)
 
 ## Heimildir
+https://www.tinkercad.com/things/gyyTM0Yr2t1-fan
 https://microcontrollerslab.com/mg995-servo-motor-pinout-interfacing-with-arduino-features-examples/<br>
 https://thecustomizewindows.com/2019/03/esp32-arduino-with-dht11-sensor-connection-code/<br>
 https://www.electronicshub.org/esp32-dht11-tutorial/<br>
