@@ -58,5 +58,14 @@ https://thecustomizewindows.com/2019/03/esp32-arduino-with-dht11-sensor-connecti
 https://www.electronicshub.org/esp32-dht11-tutorial/<br>
 https://docs.espressif.com/projects/esp-idf/en/latest/esp32/_images/esp32-devkitC-v4-pinout.png/<br>
 https://www.tinkercad.com/things/gyyTM0Yr2t1 (Viftublað eftir Dudeless á Tinkercad)<br>
-https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/
-https://learn.adafruit.com/adafruit-arduino-lesson-13-dc-motors/breadboard-layout
+https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/<br>
+https://learn.adafruit.com/adafruit-arduino-lesson-13-dc-motors/breadboard-layout<br>
+
+## Libraries
+https://github.com/adafruit/Adafruit_IO_Arduino<br>
+https://github.com/adafruit/Adafruit_MQTT_Library<br>
+https://github.com/bxparks/AUnit<br>
+https://github.com/ERROPiX/ESP32_AnalogWrite<br>
+https://madhephaestus.github.io/ESP32Servo/annotated.html<br>
+https://github.com/RoboticsBrno/ServoESP32/<br>
+https://desire.giesecke.tk/index.php/2018/01/30/esp32-dht11/<br>
